@@ -1,0 +1,10 @@
+browser "firefox %u"
+color listfocus black white
+color listfocus_unread black white
+color title black white
+color info black white
+
+bind-key j down
+bind-key k up
+bind-key l open
+bind-key h quit
