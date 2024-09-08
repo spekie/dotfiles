@@ -5,4 +5,3 @@ set hidden
 set ignorecase
 set smartcase
 set incsearch
-set completeopt=menu,menuone,noselect
