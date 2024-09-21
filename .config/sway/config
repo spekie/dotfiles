@@ -9,8 +9,6 @@ set $term foot
 
 set $menu firefox
 
-output * bg $HOME/.local/share/wallpapers/wp.png fill
-
     bindsym $mod+Return exec $term
 
     bindsym $mod+q kill
@@ -84,16 +82,11 @@ bar {
     colors {
 	statusline #ffffff
 	background #ffffff00
-	inactive_workspace #32323200 #32323200 #5c5c5c
-	focused_workspace #ffffff00 #ffffff00 #ffffff
+	inactive_workspace #32323200 #32323200 #ffffff
     }
 }
 
 for_window [class="^.*"] border pixel 3
-client.focused #ffffff #ffffff #ffffff #ffffff
-
-gaps inner 5
-gaps outer 5
 
 bindsym $mod+Shift+p exec grim
 
