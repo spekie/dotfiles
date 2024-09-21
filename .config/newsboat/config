@@ -1,8 +1,8 @@
 browser "firefox %u"
-color listfocus black white
-color listfocus_unread black white
-color title black white
-color info black white
+color listfocus white blue
+color listfocus_unread white blue
+color title white blue
+color info white blue
 
 bind-key j down
 bind-key k up
