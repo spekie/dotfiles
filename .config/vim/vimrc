@@ -1,3 +1,5 @@
+set viminfo='10,<100,:100,%,n~/.config/vim/viminfo
+
 syntax on
 set number
 set smartindent
