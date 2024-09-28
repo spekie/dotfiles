@@ -9,6 +9,8 @@ set $term foot
 
 set $menu firefox
 
+#output * bg $HOME/ fill
+
     bindsym $mod+Return exec $term
 
     bindsym $mod+q kill
@@ -88,6 +90,6 @@ bar {
 
 for_window [class="^.*"] border pixel 3
 
-bindsym $mod+Shift+p exec grim
+#bindsym $mod+Shift+p exec grim
 
 include /etc/sway/config.d/*
