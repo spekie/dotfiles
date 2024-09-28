@@ -1,3 +1,5 @@
+output * bg /home/spekie/.local/share/wallpapers/* fill
+
 set $mod Mod4
 
 set $left h
@@ -81,8 +83,8 @@ bar {
 
     colors {
 	statusline #ffffff
-	background #ffffff00
-	inactive_workspace #32323200 #32323200 #ffffff
+	background #2c2c2c
+	inactive_workspace #2c2c2c #2c2c2c #ffffff
     }
 }
 
