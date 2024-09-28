@@ -1,4 +1,4 @@
-output * bg $HOME/.local/share/wallpapers/* fill
+output * bg $HOME/.local/share/backgrounds/* fill
 
 set $mod Mod4
 
