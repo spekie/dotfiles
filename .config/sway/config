@@ -1,4 +1,4 @@
-output * bg /home/spekie/.local/share/wallpapers/* fill
+output * bg $HOME/.local/share/wallpapers/* fill
 
 set $mod Mod4
 
