@@ -1,9 +1,10 @@
-set viminfo+=n~/.cache/vim/viminfo
-
 syntax on
+
+set viminfo+=n~/.cache/vim/viminfo
 set number
 set smartindent
 set hidden
 set ignorecase
 set smartcase
 set incsearch
+set tabstop=4
