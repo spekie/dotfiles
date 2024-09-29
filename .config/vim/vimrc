@@ -1,4 +1,4 @@
-set viminfo='10,<100,:100,%,n~/.config/vim/viminfo
+set viminfo='10,<100,:100,%,n~/.cache/vim/viminfo
 
 syntax on
 set number
