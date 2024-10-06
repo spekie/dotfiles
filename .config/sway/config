@@ -9,6 +9,8 @@ set $term foot
 
 set $menu firefox
 
+#output * bg $HOME/.local/share/backgrounds/* fill
+
     bindsym $mod+Return exec $term
 
     bindsym $mod+q kill
@@ -81,11 +83,16 @@ bar {
 
     colors {
 	statusline #ffffff
-	background #2c2c2c
-	inactive_workspace #2c2c2c #2c2c2c #ffffff
+	background #ffffff00
+	inactive_workspace #ffffff00 #ffffff00 #ffffff
     }
 }
 
 for_window [class="^.*"] border pixel 3
+
+gaps inner 10
+gaps outer 10
+
+bindsym $mod+Shift+p exec grim -g "$(slurp)"
 
 include /etc/sway/config.d/*
