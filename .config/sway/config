@@ -9,6 +9,7 @@ set $term foot
 
 set $menu firefox
 
+# swaybg
 #output * bg $HOME/.local/share/backgrounds/* fill
 
     bindsym $mod+Return exec $term
@@ -93,6 +94,7 @@ for_window [class="^.*"] border pixel 3
 gaps inner 10
 gaps outer 10
 
+# grim, slurp for screenshot
 bindsym $mod+Shift+p exec grim -g "$(slurp)"
 
 include /etc/sway/config.d/*
