@@ -11,3 +11,5 @@ PS1='[\u@\h \W]\$ '
 
 # yt-dlp alias for audio format and rename to link string
 alias yt-dlpa='yt-dlp -f bestaudio -x -o "$HOME/yt/%(id)s.%(ext)s"'
+# all flac files cover removal
+# metaflac --remove --block-type=PICTURE,PADDING --dont-use-padding *.flac
