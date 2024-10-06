@@ -1,4 +1,6 @@
 #
+# Test bashrc file for some stuff I wanted to save
+#
 # ~/.bashrc
 #
 
