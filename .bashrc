@@ -20,5 +20,5 @@ alias yt-dlpa='yt-dlp -f bestaudio -x -o "$HOME/Music/%(id)s.%(ext)s"'
 # all flac file rename
 # a=1; for f in *.flac; do mv -- "$f" "$(printf '%02d.flac' "$a")"; let a=a+1; done
 
-# file rename from 001 to 999
+# all jpg file rename from 001 to 999
 # n=1; for file in *.jpg; do mv "$file" "$(printf "%03d.jpg" "$n")"; ((n++)); done
