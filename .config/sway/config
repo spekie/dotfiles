@@ -88,11 +88,11 @@ bar {
     }
 }
 
+bindsym $mod+Shift+p exec grim -g "$(slurp)"
+
 for_window [class="^.*"] border pixel 3
 
 gaps inner 10
 gaps outer 10
-
-bindsym $mod+Shift+p exec grim -g "$(slurp)"
 
 include /etc/sway/config.d/*
