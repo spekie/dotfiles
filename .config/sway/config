@@ -12,6 +12,8 @@ bindsym Mod4+Shift+c reload
 
 bindsym Mod4+Shift+e exec 'swaymsg exit'
 
+bindsym Mod4+Shift+p exec grim -g "$(slurp)"
+
 bindsym Mod4+h focus left
 bindsym Mod4+j focus down
 bindsym Mod4+k focus up
@@ -67,7 +69,6 @@ bindsym Mod4+r mode "resize"
 bar {
     position top
     font source code pro
-
     status_command while date +'%a %B %d %I:%M %p'; do sleep 1; done
 
     colors {
@@ -77,11 +78,7 @@ bar {
     }
 }
 
-bindsym Mod4+Shift+p exec grim -g "$(slurp)"
-
-for_window [class="^.*"] border pixel 3
+default_border pixel 3
 
 gaps inner 10
 gaps outer 10
-
-include /etc/sway/config.d/*
