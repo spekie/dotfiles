@@ -70,5 +70,5 @@ bar {
 				statusline #ffffff
 				background #ffffff00
 				inactive_workspace #ffffff00 #ffffff00 #ffffff
-				}
+		}
 }
