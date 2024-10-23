@@ -52,23 +52,23 @@ bindsym Mod4+Shift+9 move container to workspace number 9
 bindsym Mod4+Shift+0 move container to workspace number 10
 
 mode "resize" {
-    bindsym h resize shrink width 10px
-    bindsym j resize grow height 10px
-    bindsym k resize shrink height 10px
-    bindsym l resize grow width 10px
+		bindsym h resize shrink width 10px
+		bindsym j resize grow height 10px
+		bindsym k resize shrink height 10px
+		bindsym l resize grow width 10px
 
-    bindsym Return mode "default"
-    bindsym Escape mode "default"
+		bindsym Return mode "default"
+		bindsym Escape mode "default"
 }
 
 bar {
-    position top
-    font source code pro
-    status_command while date +'%a %B %d %I:%M %p'; do sleep 1; done
+		position top
+		font source code pro
+		status_command while date +'%a %B %d %I:%M %p'; do sleep 1; done
 
-    colors {
-	statusline #ffffff
-	background #ffffff00
-	inactive_workspace #ffffff00 #ffffff00 #ffffff
-    }
+		colors {
+				statusline #ffffff
+				background #ffffff00
+				inactive_workspace #ffffff00 #ffffff00 #ffffff
+				}
 }
