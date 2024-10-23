@@ -1,17 +1,22 @@
 # output * bg $HOME/.local/share/backgrounds/* fill
 
-bindsym Mod4+Return exec foot
+floating_modifier Mod4 normal
+default_border pixel 3
+gaps inner 10
+gaps outer 10
 
 bindsym Mod4+q kill
-
-bindsym Mod4+d exec firefox
-
-floating_modifier Mod4 normal
-
 bindsym Mod4+Shift+c reload
+bindsym Mod4+Shift+e exec swaymsg exit
+bindsym Mod4+b splith
+bindsym Mod4+v splitv
+bindsym Mod4+f fullscreen
+bindsym Mod4+space focus mode_toggle
+bindsym Mod4+Shift+space floating toggle
+bindsym Mod4+r mode "resize"
 
-bindsym Mod4+Shift+e exec 'swaymsg exit'
-
+bindsym Mod4+Return exec foot
+bindsym Mod4+d exec firefox
 bindsym Mod4+Shift+p exec grim -g "$(slurp)"
 
 bindsym Mod4+h focus left
@@ -46,15 +51,6 @@ bindsym Mod4+Shift+8 move container to workspace number 8
 bindsym Mod4+Shift+9 move container to workspace number 9
 bindsym Mod4+Shift+0 move container to workspace number 10
 
-bindsym Mod4+b splith
-bindsym Mod4+v splitv
-
-bindsym Mod4+f fullscreen
-
-bindsym Mod4+Shift+space floating toggle
-
-bindsym Mod4+space focus mode_toggle
-
 mode "resize" {
     bindsym h resize shrink width 10px
     bindsym j resize grow height 10px
@@ -64,7 +60,6 @@ mode "resize" {
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
-bindsym Mod4+r mode "resize"
 
 bar {
     position top
@@ -77,8 +72,3 @@ bar {
 	inactive_workspace #ffffff00 #ffffff00 #ffffff
     }
 }
-
-default_border pixel 3
-
-gaps inner 10
-gaps outer 10
