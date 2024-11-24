@@ -1,0 +1,7 @@
+unbind-key q
+unbind-key ENTER
+
+bind-key h quit
+bind-key j down
+bind-key k up
+bind-key l open
