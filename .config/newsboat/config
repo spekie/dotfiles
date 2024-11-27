@@ -1,4 +1,3 @@
-unbind-key q
 unbind-key ENTER
 
 bind-key h quit
