@@ -1,0 +1,85 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: monospace;
+    font-size: 15px;
+}
+
+
+window#waybar {
+    background-color: rgba(43, 48, 59, 0.5);
+	 color: #ffffff;
+}
+/*
+window#waybar {
+    background-color: rgba(43, 48, 59, 0.5);
+    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+*/
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+
+button {
+    box-shadow: transparent;
+    border: none;
+    border-radius: 0;
+	 color: transparent;
+	 background-color: transparent;
+}
+
+#workspaces button:hover {
+    color: transparent;
+    box-shadow: inherit;
+    text-shadow: inherit;
+    background: transparent;
+    border: transparent;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background-color: transparent;
+    color: #bfbfbf;
+}
+
+#workspaces button.selected {
+    background-color: transparent;
+	 color: transparent;
+}
+
+#workspaces button.active {
+    background-color: transparent;
+	 color: #ffffff;
+}
+
+#workspaces button.urgent {
+    background-color: transparent;
+}
+
+#clock,
+#window,
+#workspaces {
+    margin: 0 4px;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
+/*
+#clock {
+    background-color: #000000;
+}
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+*/
