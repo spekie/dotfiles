@@ -1,3 +1,4 @@
+browser "firefox --new-tab %u"
 unbind-key ENTER
 
 bind-key h quit
