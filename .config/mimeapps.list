@@ -2,6 +2,7 @@
 application/x-matroska=mpv.desktop
 audio/aac=mpv.desktop
 audio/mp4=mpv.desktop
+audio/flac=mpv.desktop
 audio/mpeg=mpv.desktop
 audio/mpegurl=mpv.desktop
 audio/ogg=mpv.desktop
@@ -52,6 +53,7 @@ video/x-ogm+ogg=mpv.desktop
 video/x-theora=mpv.desktop
 video/x-theora+ogg=mpv.desktop
 image/jpeg=imv.desktop
+image/jpg=imv.desktop
 image/png=imv.desktop
 image/gif=imv.desktop
 image/bmp=imv.desktop
