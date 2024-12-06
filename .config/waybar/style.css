@@ -30,7 +30,7 @@ button {
 }
 
 #workspaces button:hover {
-    color: transparent;
+    color: #ffffff;
     box-shadow: inherit;
     text-shadow: inherit;
     background: transparent;
