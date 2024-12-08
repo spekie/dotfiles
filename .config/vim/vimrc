@@ -10,3 +10,5 @@ set smartcase
 set incsearch
 set hlsearch
 set tabstop=3
+set noswapfile
+set nobackup
