@@ -20,3 +20,6 @@ button {
 	color: #bfbfbf;
 	border: none;
 }
+#clock {
+	padding: 0 5px;
+}
