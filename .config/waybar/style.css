@@ -1,9 +1,9 @@
 * {
-    font-family: monospace;
-    font-size: 15px;
+	font-family: monospace;
+	font-size: 15px;
 }
 window#waybar {
-    background-color: rgba(43, 48, 59, 0.5);
+	background-color: rgba(43, 48, 59, 0.5);
 	color: #ffffff;
 }
 button:hover,
