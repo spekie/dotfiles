@@ -14,5 +14,6 @@
     ],
     "clock": {
         "format": "{:%a %d %B %Y %H:%M}",
+		"tooltip": false,
     },
 }

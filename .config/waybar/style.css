@@ -4,46 +4,19 @@
 }
 window#waybar {
     background-color: rgba(43, 48, 59, 0.5);
-	 color: #ffffff;
+	color: #ffffff;
+}
+button:hover,
+button.active, 
+button.selected,
+button.urgent {
+	color: #ffffff;
+	box-shadow: inherit;
+	text-shadow: inherit;
+	background: none;
 }
 button {
-    box-shadow: transparent;
-    border: none;
-    border-radius: 0;
-	 color: transparent;
-	 background-color: transparent;
-}
-#workspaces button:hover {
-    color: #ffffff;
-    box-shadow: inherit;
-    text-shadow: inherit;
-    background: transparent;
-    border: transparent;
-}
-#workspaces button {
-    padding: 0 5px;
-    background-color: transparent;
-    color: #bfbfbf;
-}
-#workspaces button.selected {
-    background-color: transparent;
-	 color: transparent;
-}
-#workspaces button.active {
-    background-color: transparent;
-	 color: #ffffff;
-}
-#workspaces button.urgent {
-    background-color: transparent;
-}
-#clock,
-#window,
-#workspaces {
-    margin: 0 4px;
-}
-.modules-left > widget:first-child > #workspaces {
-    margin-left: 0;
-}
-.modules-right > widget:last-child > #workspaces {
-    margin-right: 0;
+	padding: 0 5px;
+	color: #bfbfbf;
+	border: none;
 }
