@@ -16,7 +16,7 @@ bindsym Mod4+Shift+space floating toggle
 bindsym Mod4+r mode "resize"
 
 bindsym Mod4+Return exec foot
-bindsym Mod4+d exec firefox
+bindsym Mod4+d exec fuzzel
 bindsym Mod4+Shift+p exec grim -g "$(slurp)"
 
 bindsym Mod4+h focus left
