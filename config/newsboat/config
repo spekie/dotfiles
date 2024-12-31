@@ -1,4 +1,4 @@
-browser "firefox --new-tab %u"
+browser "mpv %u"
 unbind-key ENTER
 
 bind-key h quit
