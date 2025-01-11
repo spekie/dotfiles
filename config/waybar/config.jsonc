@@ -8,6 +8,6 @@
         "clock",
     ],
     "clock": {
-		"format": "{:%a %d %B %Y %H:%M}",
+						"format": "{:%a %d %B %H:%M}",
     },
 }
