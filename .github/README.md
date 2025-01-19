@@ -1,2 +1,2 @@
 # spekie/dotfiles
-![preview](.github/preview.png)
+![preview](preview.png)
