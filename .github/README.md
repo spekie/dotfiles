@@ -1,2 +1,2 @@
-# spekie/dotfiles
+# spekie/dots
 ![preview](preview.png)
