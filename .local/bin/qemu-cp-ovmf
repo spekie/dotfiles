@@ -1,0 +1,4 @@
+#!/bin/sh
+cp /usr/share/edk2/x64/OVMF.4m.fd .
+# Append "-drive if=pflash,format=raw,file=/copy/of/OVMF.4m.fd"
+# See https://wiki.archlinux.org/title/QEMU#Booting_in_UEFI_mode

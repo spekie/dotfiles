@@ -1,0 +1,2 @@
+#!/bin/sh
+qemu-system-x86_64 vm.img -drive if=pflash,format=raw,file=OVMF.4m.fd -m 4G -enable-kvm -cpu host
