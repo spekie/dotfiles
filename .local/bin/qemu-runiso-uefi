@@ -1,2 +1,2 @@
 #!/bin/sh
-qemu-system-x86_64 -cdrom Downloads/*.iso -boot order=d -drive file=vm.img,format=raw -drive if=pflash,format=raw,file=OVMF.4m.fd -m 4G -enable-kvm -cpu host
+qemu-system-x86_64 -cdrom $HOME/Downloads/*.iso -boot order=d -drive file=vm.img,format=raw -drive if=pflash,format=raw,file=OVMF.4m.fd -m 4G -enable-kvm -cpu host
